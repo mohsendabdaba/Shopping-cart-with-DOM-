@@ -1,0 +1,10 @@
+<div class="total">
+            <h5>Shopping Bag total:</h5>
+         </div>
+        <div class="first-itme">
+                <button class="btn"><i class="fa fa-close"></i></button>
+                <button class="btn"><i class="fa fa-heart"></i></button>
+
+
+     
+         </div>

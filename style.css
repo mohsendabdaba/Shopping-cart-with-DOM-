@@ -1,0 +1,117 @@
+
+
+
+
+body{
+    position: relative;
+    margin:0px;
+    top:0px; 
+    background-color:  rgb(132, 202, 86) ;     
+}
+
+
+ .shopping-cart{
+    position: absolute;
+    margin: 5% 20%;
+    background-color: white;
+    border-radius:7px;
+    overflow: hidden;
+    }
+
+    .title{
+      display: flex;
+        
+        padding:2% ;
+    }
+
+
+    
+    .item{
+     
+        display: flex;
+        border-top: 1px solid gray;}
+     
+    
+       
+         
+  
+   
+
+     .item img {
+         width: 50%;
+         height:70%; 
+         margin: 5% 0%;
+         border: 1px solid white;
+         
+
+    }
+    .buttons{
+      display:flex;
+      justify-content: space-between;
+      border: 1px solid white;
+      height: 10%; 
+      margin: 7%;
+      width: 40%;
+    
+    }
+   
+  
+    
+    .description{
+        margin: 3% 0% ;
+        border: 1px solid white;
+        
+    }
+   .total-price{
+       margin: 1% ;
+       
+   }
+   .quantity{
+    display: flex;
+    margin: 5% 5% 5% 25%;
+    border: 1px solid white;
+    width: 60%;
+    height: 40%;
+   }
+   .quantity input {
+    text-align: center;
+    border: none;
+   }
+   .title input{
+    text-align: center;
+    border: none;
+   }
+   .price {
+       margin: 5%;
+   }
+
+
+   
+   
+   @media (max-width: 800px) {
+    .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      margin: auto;
+    }
+    .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .image img {
+      width: 50%;
+    }
+    .image,
+    .description {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .buttons {
+      margin-right: 20px;
+    }
+   
+}
+  
